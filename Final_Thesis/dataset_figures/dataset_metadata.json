@@ -1,34 +1,11 @@
 {
-    "settings_snapshot": {
-        "grid_size_x": 10,
-        "grid_size_y": 10,
-        "normal_resistance": 1.0,
-        "num_electrodes": 16,
-        "crack_severity_range": [
+    "config": {
+        "_BASELINE_NOISE_SD": 5e-05,
+        "_BATCH_SIZE": 32,
+        "_CRACK_DETECTION_RADIUS": 0.12,
+        "_CRACK_SEVERITY_RANGE": [
             10000,
             30000
         ],
-        "max_cracks": 3,
-        "samples_per_class": [
-            1000,
-            5000,
-            6000,
-            8000
-        ],
-        "baseline_noise_sd": 5e-05,
-        "noise_sigma": 1.5,
-        "dataset_save_path": "eit_simulated_data.csv",
-        "normalize_measurements": true,
-        "kirchhoff_tol": 0.001,
-        "figure_dir": "dataset_figures",
-        "stats_file": "dataset_statistics.json",
-        "metadata_file": "dataset_metadata.json"
-    },
-    "dataset_seed_used": 42,
-    "samples_generated_per_class": [
-        1000,
-        5000,
-        6000,
-        8000
-    ]
-}
+        "_DATASET_FILE": "eit_simulated_data.csv",
+        "_DEVICE": 
